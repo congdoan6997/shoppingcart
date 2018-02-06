@@ -1,0 +1,84 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>folderPHP</Name>
+    <ProjectGuid>{0af90b52-348e-4a03-b223-3fd28862ac52}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include=".vs\config\applicationhost.config" />
+    <Compile Include=".vs\ProjectSettings.json" />
+    <Compile Include=".vs\slnx.sqlite" />
+    <Compile Include=".vs\VSWorkspaceState.json" />
+    <Compile Include="css\bootstrap-grid.css" />
+    <Compile Include="css\bootstrap-grid.css.map" />
+    <Compile Include="css\bootstrap-grid.min.css" />
+    <Compile Include="css\bootstrap-grid.min.css.map" />
+    <Compile Include="css\bootstrap-reboot.css" />
+    <Compile Include="css\bootstrap-reboot.css.map" />
+    <Compile Include="css\bootstrap-reboot.min.css" />
+    <Compile Include="css\bootstrap-reboot.min.css.map" />
+    <Compile Include="css\bootstrap.css" />
+    <Compile Include="css\bootstrap.css.map" />
+    <Compile Include="css\bootstrap.min.css" />
+    <Compile Include="css\bootstrap.min.css.map" />
+    <Compile Include="js\bootstrap.bundle.js" />
+    <Compile Include="js\bootstrap.bundle.js.map" />
+    <Compile Include="js\bootstrap.bundle.min.js" />
+    <Compile Include="js\bootstrap.bundle.min.js.map" />
+    <Compile Include="js\bootstrap.js" />
+    <Compile Include="js\bootstrap.js.map" />
+    <Compile Include="js\bootstrap.min.js" />
+    <Compile Include="js\bootstrap.min.js.map" />
+    <Compile Include="js\jquery-3.3.1.min.js" />
+    <Compile Include="product_images\hp-15-bs578tu-n3710-den-450x300-450x300.jpg" />
+    <Compile Include="product_images\hp-pavilion-x360-ad026tu-i3-7100u-pen-450-450x300-450x300.png" />
+    <Compile Include="product_images\htc-u-ultra-sapphire-400-400x460.png" />
+    <Compile Include="product_images\htc-u11-plus-bac-h1-400x461.png" />
+    <Compile Include="product_images\huawei-mediapad-m3-115-400x460.png" />
+    <Compile Include="product_images\huawei-mediapad-t3-10-inch-400-400x460.png" />
+    <Compile Include="product_images\ipad-pro-105-inch-wifi-cellular-64gb-2017-16-300x300.png" />
+    <Compile Include="product_images\iphone-6s-32gb-400x450-400x450.png" />
+    <Compile Include="product_images\iphone-7-8-400x460.png" />
+    <Compile Include="product_images\iphone-7-plus-2-400x460-400x460.png" />
+    <Compile Include="product_images\iphone-8-256gb2-400x460.png" />
+    <Compile Include="product_images\iphone-8-64gb-1-400x460.png" />
+    <Compile Include="product_images\iphone-x-64gb-1-400x460.png" />
+    <Compile Include="product_images\iphone4.jpg" />
+    <Compile Include="product_images\iphone5.jpg" />
+    <Compile Include="product_images\iphone6.jpg" />
+    <Compile Include="product_images\lenovo-phab2-460-400x460.png" />
+    <Compile Include="product_images\may-in-laser-canon-imageclass-lbp6030-10019602-01.jpg" />
+    <Compile Include="product_images\MÁY-IN-CANON-PIXMA-IP2870S-01.png" />
+    <Compile Include="product_images\MÁY-IN-PHUN-CANON-E560WCISS.png" />
+    <Compile Include="product_images\samsung-galaxy-note8-1-400x460.png" />
+    <Compile Include="product_images\samsung-galaxy-tab-a6-101-spen-400x460.png" />
+    <Compile Include="product_images\sony-xperia-xz-premium-1-400x460.png" />
+    <Compile Include="product_images\sony-xperia-xz-premium-pink-gold-400x460.png" />
+    <Compile Include="action.php" />
+    <Compile Include="customer_registration.html" />
+    <Compile Include="db.php" />
+    <Compile Include="index.html" />
+    <Compile Include="main.js" />
+    <Compile Include="register.php" />
+    <Compile Include="test.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\config" />
+    <Folder Include=".vs\shoppingcart\v15" />
+    <Folder Include=".vs\shoppingcart" />
+    <Folder Include=".vs" />
+    <Folder Include="css" />
+    <Folder Include="js" />
+    <Folder Include="product_images" />
+  </ItemGroup>
+</Project>
